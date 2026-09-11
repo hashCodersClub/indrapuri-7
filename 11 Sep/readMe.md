@@ -10,6 +10,9 @@ li
 
 ### URLs
 
+1. relative
+2. absolute
+
 ### Task Given
 
 ### Tags vs Elements
