@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section#main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5px;
+}
+
+header {
+  background-color: blue;
+  color: #fff;
+  flex: 2;
+}
+
+main {
+  flex: 7;
+  padding: 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+div#row-1 {
+  flex: 6;
+  display: flex;
+  gap: 5px;
+}
+
+div#row-2 {
+  flex: 4;
+  display: flex;
+  gap: 5px;
+}
+
+div.twin {
+  flex: 1;
+  background-color: orange;
+}
+
+div#main-content {
+  background-color: rgb(6, 174, 6);
+  flex: 7;
+}
+
+div#sidebar {
+  background-color: rgb(198, 7, 198);
+  flex: 3;
+}
+
+footer {
+  background-color: blue;
+  color: #fff;
+  flex: 1;
+}

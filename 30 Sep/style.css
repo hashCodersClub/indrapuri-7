@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section#main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section > div {
+  flex: 1;
+  border: 2px solid gray;
+}
+
+div#blue {
+  background-color: blue;
+}
+
+div#black {
+  background-color: black;
+}
+
+div#mini-container {
+  display: flex;
+}
+
+div#mini-container > div {
+  border: 2px solid pink;
+  margin: 2px;
+  flex: 1;
+}
+
+div#red {
+  background-color: red;
+}
+
+div#yellow {
+  background-color: yellow;
+}
+
+div#orange {
+  background-color: orange;
+}
+
+div#purple {
+  background-color: purple;
+}
